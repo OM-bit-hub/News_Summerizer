@@ -1,7 +1,7 @@
 # 🧠 RAG-Based News Summarizer
 ## Project by -
-## 1. Ritesh Taru 
-## Github Profile - https://github.com/Riteshtaru343/RAG_Based_News_Summerizer.git
+## 1.Om Dhengle
+## 2. Ritesh Taru - https://github.com/Riteshtaru343/RAG_Based_News_Summerizer.git
 
 This project is a modular, multilingual news summarization app powered by:
 - ✅ Retrieval-Augmented Generation (RAG)
