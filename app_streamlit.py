@@ -271,12 +271,6 @@ if summarize_btn:
                         st.write("No audio available.")
                         
 st.markdown("---")
-st.markdown(
-    "<div style='text-align: center; color: #6b7280; padding: 1rem;'>"
-    "🤖 Powered by RAG Technology | 🌍 Multi-Language Support"
-    "</div>", 
-    unsafe_allow_html=True
-)
 
 st.markdown(
     """
@@ -290,4 +284,5 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
