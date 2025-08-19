@@ -278,3 +278,16 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+st.markdown(
+    """
+    <div style='text-align: center; color: #6b7280; padding: 1rem;'>
+        🤖 Powered by RAG Technology | 🌍 Multi-Language Support <br>
+        👨‍💻 Created by 
+        <a href='https://github.com/OM-bit-hub' target='_blank' style='color: #2563eb; text-decoration: none;'>Om Dhengle</a> 
+        and 
+        <a href='https://github.com/Riteshtaru343/RAG_Based_News_Summerizer.git' target='_blank' style='color: #2563eb; text-decoration: none;'>Ritesh Taru</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
