@@ -270,34 +270,6 @@ if summarize_btn:
                     else:
                         st.write("No audio available.")
                         
-                #             with scores_placeholder:
-                # st.markdown("### 📊 Evaluation Scores")
-                
-                # # Simple scores display
-                # for model, model_scores in scores.items():
-                #     with st.expander(f"🤖 {model.upper()} Scores"):
-                #         cols = st.columns(3)
-                #         for i, (metric, score) in enumerate(model_scores.items()):
-                #             col_idx = i % 3
-                #             if isinstance(score, (int, float)):
-                #                 cols[col_idx].metric(metric.replace('_', ' ').title(), f"{score:.3f}")
-                #             else:
-                #                 cols[col_idx].metric(metric.replace('_', ' ').title(), str(score))
-
-                # with scores_placeholder:
-                #     st.markdown("### 📊 Evaluation Scores (Cohere vs T5)")
-
-                #     import pandas as pd
-
-                #     # Convert scores dictionary to DataFrame for side-by-side comparison
-                #     scores_df = pd.DataFrame(scores).T  # models = rows, metrics = columns
-
-                #     # Format floats to 3 decimal places
-                #     scores_df = scores_df.applymap(lambda x: f"{x:.3f}" if isinstance(x, (int, float)) else str(x))
-
-                #     # Display as a table
-                #     st.dataframe(scores_df, use_container_width=True)
-
 st.markdown("---")
 st.markdown(
     "<div style='text-align: center; color: #6b7280; padding: 1rem;'>"
@@ -305,3 +277,4 @@ st.markdown(
     "</div>", 
     unsafe_allow_html=True
 )
+
